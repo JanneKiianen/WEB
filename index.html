@@ -3,18 +3,44 @@
     <head><title>Awesome web stuff</title></head>
     <body>
         
-        <form style="border:solid 1px; width:500px"> 
-            <label for="fname">First name:</label>
-            <input type="text" id="fname"><label for="contactMethod">Preferred contact method:</label></label><br>
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname"><input type="checkbox" id="contact1" name="contact1" value="Email">
-            <label for="contact1">Email</label><br>
-            <label for="email">Email:</label>
-            <input type="text" id="email"><input type="checkbox" id="contact2" name="contact2" value="Phone">
-            <label for="contact2">Email</label><br>
-            <label for="phone">Telephone:</label>
-            <input type="text" id="phone"><br>
+       
+        
+        <form style = "margin: 0 auto; width:450px; padding: 1em; "> 
+            <fieldset>
+                <legend>Contact information:</legend>
+                    <label style = "display: inline-block; text-align: right;" for="fname">First name:</label>
+                    <input style = "display: inline-block; margin-left:auto ;" type="text" id="fname">
+                    <label style = "display: inline-block; text-align: right;" for="contactMethod">Preferred contact method:</label><br>
+
+                    <label style = "display: inline-block; text-align: right;" for="lname">Last name:</label>
+                    <input style = "display: inline-block; margin-left:auto" type="text" id="lname">
+                    <input style = "display: inline-block; margin-left:auto;" type="checkbox" id="contact1" name="contact1" value="contact1">
+                    <label style = "display: inline-block; text-align: right;" for="contact1">Email</label><br>
+
+                    <label style = "display: inline-block; text-align: right;" for="email">Email:</label>
+                    <input style = "display: inline-block; margin-left:auto;" type="text" id="email">
+                    <input style = "display: inline-block; margin-left:auto;" type="checkbox" id="contact2" name="contact2" value="contact2">
+                    <label style = "display: inline-block; text-align: right;" for="contact2">Telephone</label><br>
+
+                    <label style = "display: inline-block; text-align: right;" for="phone">Telephone:</label>
+                    <input style = "display: inline-block; margin-left:auto;" type="text" id="phone"><br>
+
+            </fieldset>
         </form>
+        
+        <form>
+            <fieldset>
+                <legend>Feedback:</legend>
+                <label for="messageFromNet">Message subject:</label>
+                <input type="text" id="messageFromNet"><br>
+                <textarea name="message" rows="10" cols="30">
+                    
+                </textarea>
+
+            </fieldset>
+        </form>
+        
+        
         
     </body>
 </html>
