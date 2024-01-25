@@ -1,86 +1,53 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="FormStyle.css">
     <html lang="eng">
-    <head><title>Awesome web stuff</title></head>
+    <head>
+        
+        <title>Awesome web stuff</title></head>
     <body>
         
        
         <form> 
-            <fieldset style="width:425px">
+            <fieldset>
                 <legend>Contact information:</legend>
-                <table>
-                    
-                    <tr>
-                        <td>
-                            <label for="fname">First name:</label> 
-                        </td>
-
-                        <td>
-                            <input type="text" id="fname">
-                        </td>
-
-                        <td>
-                            <label for="chooseContant">Preferred contact method:</label>
-                        </td> 
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="lname">Last name:</label>
-                        </td>
-                        <td>
-                            <input type="text" id="lname">
-                        </td>
-                        <td>
-                            <input type="checkbox" id="contact1">
-                            <label for="contact1">Email</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="email">Email:</label>
-                        </td>
-                        <td>
-                            <input type="text" id="email">
-                        </td>
-                        <td>
-                            <input type="checkbox" id="contact2">
-                            <label for="contact2">Telephone</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="phone">Telephone:</label>
-                        </td>
-                        <td>
-                            <input type="text" id="phone">
-                        </td>
-                    </tr>
-                </table>
-                    
-
+                
+                            
+                            
+                                    <div class="LeftSide"><label for="fname">First name:</label></div>
+                                    <input type="text" id="fname">
+                                    <label for="chooseContant">Preferred contact method:</label><br> 
+                            
+                                    <div class="LeftSide"><label for="lname">Last name:</label></div>
+                                    <input type="text" id="lname">
+                                    <input type="checkbox" id="contact1">
+                                    <label for="contact1">Email</label><br>
+                            
+                                    <div class="LeftSide"><label for="email">Email:</label></div>
+                                    <input type="text" id="email">
+                                    <input type="checkbox" id="contact2">
+                                    <label for="contact2">Telephone</label><br>
+                            
+                                    <div class="LeftSide"><label for="phone">Telephone:</label></div>
+                                    <input type="text" id="phone"><br>
             </fieldset>
         
         
         
         
-            <fieldset style="width:425px">
+            <fieldset>
                 <legend>Feedback:</legend>
                     
-                    <table>
-
-                        <tr>
-                            <td><label for="messageFromNet">Message subject:</label></td>
-                            <td><input type="text" id="messageFromNet"></td>
-                        </tr>
-
-                    <tr>
-                        <th colspan="2"><textarea name="message" rows="10" cols="50">
-                        </textarea></th>
-                    </tr>
+                    <div class="FeedbackFormatting"><label for="messageFromNet">Message subject:</label></div>
+                    <input type="text" id="messageFromNet">
+                    <textarea name="message" rows="10" cols="50">
+                    </textarea>
                     
-                    <tr><td><label for="SendAFile">Attach a file:</label></td><td><input type="file" id="SendAFile" name="SendAFile"></td></tr>                  
-                    <tr><td><input type="submit" value="Send "></td></tr>
-                    </table>
+                    
+                    <div class="FeedbackFormatting"><label for="SendAFile">Attach a file:</label></div>
+                    <input type="file" id="SendAFile" name="SendAFile"><br>               
+                    <input type="submit" value="Send ">
+                    
 
             </fieldset>
         </form>

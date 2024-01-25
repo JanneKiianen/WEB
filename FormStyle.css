@@ -1,0 +1,17 @@
+
+fieldset{
+    width: 425px;
+    border-radius: 5px;
+}
+
+.LeftSide{
+    width:18%;
+    
+    float: left;
+}
+.FeedbackFormatting{
+    width:30%;
+    
+    float:left;
+}
+
