@@ -1,14 +1,25 @@
 
 fieldset{
-    width: 425px;
+    width:50%;
     border-radius: 5px;
+    min-width: 425px;
 }
 
-.LeftSide{
-    width:18%;
-    
-    float: left;
+.container{
+    display:flex;
+    flex-direction: row;
+    min-width: 425px;
 }
+.LeftSide{
+padding-left: 1% ;
+} 
+.textinputs{
+padding-left: 2%;
+}  
+.RightSide{
+padding-left: 2%;
+}
+
 .FeedbackFormatting{
     width:30%;
     
